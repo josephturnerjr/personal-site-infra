@@ -11,7 +11,7 @@ services:
       - /etc/caddy/caddy_config:/config
     networks: 
       - docklinode
-    name: test1
+    name: test2
 
 volumes:
   caddy_data:
