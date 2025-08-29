@@ -1,4 +1,4 @@
-name: infra
+name: test1
 
 services:
   caddy:
