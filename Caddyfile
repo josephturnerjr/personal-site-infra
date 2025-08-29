@@ -1,0 +1,4 @@
+test.thejosephturner.com {
+    reverse_proxy thejosephturner_com:80
+
+}

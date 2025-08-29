@@ -1,0 +1,23 @@
+services:
+  caddy:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - /etc/caddy/caddy_data:/data
+      - /etc/caddy/caddy_config:/config
+    networks: 
+      - docklinode
+
+volumes:
+  caddy_data:
+  caddy_config:
+
+
+networks:
+  docklinode:
+    name: docklinode
+
