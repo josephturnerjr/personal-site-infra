@@ -1,3 +1,5 @@
+name: test1
+
 services:
   caddy:
     build: .
@@ -11,7 +13,6 @@ services:
       - /etc/caddy/caddy_config:/config
     networks: 
       - docklinode
-    container-name: test2
 
 volumes:
   caddy_data:
