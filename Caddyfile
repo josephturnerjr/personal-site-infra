@@ -5,3 +5,7 @@ www.thejosephturner.com {
 thejosephturner.com {
     reverse_proxy thejosephturner_com:80
 }
+
+test.inletelectronics.net {
+    reverse_proxy inletelectronics_net:80
+}
