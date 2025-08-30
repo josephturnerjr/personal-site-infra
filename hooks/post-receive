@@ -1,0 +1,12 @@
+#!/bin/bash -l
+
+TMP_GIT_CLONE=$(mktemp -d)
+PUBLIC_WWW=/var/www/myrepo
+
+git clone $GIT_DIR $TMP_GIT_CLONE
+pushd $TMP_GIT_CLONE
+docker compose build
+docker compose up -d
+popd
+rm -Rf $TMP_GIT_CLONE
+exit
