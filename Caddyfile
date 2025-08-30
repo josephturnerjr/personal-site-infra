@@ -6,6 +6,10 @@ thejosephturner.com {
     reverse_proxy thejosephturner_com:80
 }
 
-test.inletelectronics.com {
+www.inletelectronics.com {
+    redir https://inletelectronics.com{uri}
+}
+
+inletelectronics.com {
     reverse_proxy inletelectronics_com:80
 }
