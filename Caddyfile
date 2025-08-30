@@ -15,6 +15,11 @@ inletelectronics.com {
     reverse_proxy inletelectronics_com:80
 }
 
-test.creativelandscapesinc.net {
+
+www.creativelandscapesinc.net {
+    redir https://creativelandscapesinc.net{uri}
+}
+
+creativelandscapesinc.net {
     reverse_proxy creativelandscapesinc_net:80
 }
