@@ -23,3 +23,7 @@ www.creativelandscapesinc.net {
 creativelandscapesinc.net {
     reverse_proxy creativelandscapesinc_net:80
 }
+
+test.movetopawleysisland.com {
+    reverse_proxy movetopawleysisland_com:80
+}
