@@ -14,3 +14,7 @@ www.inletelectronics.com {
 inletelectronics.com {
     reverse_proxy inletelectronics_com:80
 }
+
+test.creativelandscapesinc.net {
+    reverse_proxy creativelandscapesinc_net:80
+}
