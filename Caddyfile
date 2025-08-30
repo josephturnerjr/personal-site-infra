@@ -1,3 +1,7 @@
-test.thejosephturner.com {
+www.thejosephturner.com {
+    redir https://thejosephturner.com{uri}
+}
+
+thejosephturner.com {
     reverse_proxy thejosephturner_com:80
 }
