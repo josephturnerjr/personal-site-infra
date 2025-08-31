@@ -24,6 +24,10 @@ creativelandscapesinc.net {
     reverse_proxy creativelandscapesinc_net:80
 }
 
-test.movetopawleysisland.com {
+www.movetopawleysisland.com {
+    redir https://movetopawleysisland.com{80}
+}
+
+movetopawleysisland.com {
     reverse_proxy movetopawleysisland_com:80
 }
