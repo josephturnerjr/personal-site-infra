@@ -31,3 +31,7 @@ www.movetopawleysisland.com {
 movetopawleysisland.com {
     reverse_proxy movetopawleysisland_com:80
 }
+
+montecarlo.thejosephturner.com {
+    reverse_proxy vibe-carlo:8000
+}
