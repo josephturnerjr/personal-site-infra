@@ -35,3 +35,7 @@ movetopawleysisland.com {
 montecarlo.thejosephturner.com {
     reverse_proxy vibe-carlo:8000
 }
+
+todayi.thejosephturner.com {
+    reverse_proxy today-i:5001
+}
