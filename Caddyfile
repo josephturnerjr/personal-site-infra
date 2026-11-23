@@ -39,3 +39,7 @@ montecarlo.thejosephturner.com {
 todayi.thejosephturner.com {
     reverse_proxy today-i:5001
 }
+
+crimpandfall.thejosephturner.com {
+    reverse_proxy crimpandfall:80
+}
